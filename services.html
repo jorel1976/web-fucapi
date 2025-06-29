@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Servicios - FUCAPI</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero-section {
+      background: url('../img/fondo-servicios.jpg') no-repeat center center/cover;
+      position: relative;
+      color: white;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero-overlay {
+      background-color: rgba(220, 53, 69, 0.8);
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="../img/logo-fucapi.png" alt="Logo FUCAPI" style="height: 60px; margin-right: 10px;" />
+      <strong>FUCAPI</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Quiénes Somos</a></li>
+        <li class="nav-item"><a class="nav-link active" href="services.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="donations.html">Donaciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero-section">
+  <div class="hero-overlay">
+    <h1>Servicios y Programas</h1>
+    <p>Conoce nuestras áreas de atención y especialidades</p>
+  </div>
+</header>
+
+<!-- Servicios Section -->
+<section class="container py-5">
+  <h2 class="text-center text-primary mb-4">Áreas de Atención</h2>
+  <div class="row g-4">
+
+    <!-- Servicio 1 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <img src="../img/fisioterapia.jpg" class="card-img-top" alt="Fisioterapia">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Fisioterapia</h5>
+          <p class="card-text">Tratamiento de rehabilitación física para mejorar la movilidad y calidad de vida.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 2 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <img src="../img/terapia-ocupacional.jpg" class="card-img-top" alt="Terapia Ocupacional">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Terapia Ocupacional</h5>
+          <p class="card-text">Favorece el desarrollo de habilidades para la vida diaria e independencia funcional.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 3 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <img src="../img/psicopedagogia.jpg" class="card-img-top" alt="Psicopedagogía">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Psicopedagogía</h5>
+          <p class="card-text">Apoyo en el proceso de aprendizaje adaptado a las necesidades individuales.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 4 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <img src="../img/psicologia.jpg" class="card-img-top" alt="Psicología">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Psicología</h5>
+          <p class="card-text">Acompañamiento emocional y terapias enfocadas en la salud mental y social.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 5 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <img src="../img/psicomotricidad.jpg" class="card-img-top" alt="Psicomotricidad">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Psicomotricidad</h5>
+          <p class="card-text">Estimulación del desarrollo motor y sensorial a través del cuerpo y el movimiento.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 6 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <img src="../img/fonoaudiologia.jpg" class="card-img-top" alt="Fonoaudiología">
+        <div class="card-body">
+          <h5 class="card-title text-danger">Fonoaudiología</h5>
+          <p class="card-text">Tratamientos para mejorar la comunicación, lenguaje, habla y deglución.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Servicio 7 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100">
+        <img src="../img/hrbc.jpg" class="card-img-top" alt="HRBC">
+        <div class="card-body">
+          <h5 class="card-title text-danger">HRBC</h5>
+          <p class="card-text">Herramienta de evaluación para detección temprana de necesidades y planificación terapéutica.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Público Objetivo -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center text-primary mb-3">Público Objetivo</h2>
+    <p class="text-center">Nuestros beneficiarios principales son <strong>personas con discapacidad</strong> de todas las edades, a quienes brindamos atención especializada, accesible y de calidad.</p>
+  </div>
+</section>
+
+<!-- Ubicación -->
+<section class="container py-5">
+  <h2 class="text-center text-primary mb-3">Ubicación</h2>
+  <p class="text-center">Nos encontramos en <strong>Prolongación Avenida del Estudiante s/n, Coroico, Bolivia</strong></p>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.632120715201!2d-67.72827018584402!3d-16.189523488804827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915ebf5e098b6151%3A0x9f8d8b6f00c7ccbd!2sCoroico%2C%20Bolivia!5e0!3m2!1ses!2sbo!4v1714291744782!5m2!1ses!2sbo" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Botón flotante de Facebook -->
+<a href="https://www.facebook.com/Fucapicoroico" class="float-button facebook-float d-flex align-items-center justify-content-center" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook FUCAPI">
+</a>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/59178974379?text=Hola%20Daicy%20Esterilla%2C%20quiero%20informarme%20sobre%20FUCAPI" class="float-button whatsapp-float d-flex align-items-center justify-content-center" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Daicy Esterilla">
+</a>
+
+<!-- Footer -->
+<footer class="bg-danger text-white text-center p-3">
+  <p>FUCAPI &copy; 2025 - Coroico, Bolivia</p>
+</footer>
+
+<script src="../js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
