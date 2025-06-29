@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    background: url('../img/fucapi-hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+  }
+  
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  
+  .whatsapp-float img {
+    width: 100%;
+  }/* Estilos principales */ 
+/* Estilo flotante */ 
+    .float-button {
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .float-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  }
+
+  .whatsapp-float {
+    bottom: 20px;
+    background-color: #25d366;
+  }
+
+  .facebook-float {
+    bottom: 80px;
+    background-color: #1877f2;
+  }
+
+  .float-button img {
+    width: 28px;
+    height: 28px;
+  }

@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA;
+  }
+  
+  .hero-section {
+    background: url('../img/fucapi-hero.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(244, 180, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+  }
+  
+  .hero-section h1, .hero-section p {
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #EA4335;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #cc392d;
+  }
+  
+  .navbar-brand, .nav-link {
+    font-weight: 600;
+  }
+  
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
